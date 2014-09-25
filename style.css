@@ -9,7 +9,7 @@ html, body {
 }
 
 a {
-  display: block;
+  color: blue;
   text-decoration: none;
 }
 
