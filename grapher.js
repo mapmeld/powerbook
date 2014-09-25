@@ -17,6 +17,7 @@ $.get("power-logs/pwr-CSN74901610-140820_141723.csv", function(data) {
         ['time'].concat(times),
         ['charge'].concat(chargeLevels)
       ],
+      color: "#77e"
     },
     axis: {
       x: {

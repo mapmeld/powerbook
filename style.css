@@ -16,3 +16,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.c3-axis-x text {
+  opacity: 0;
+}
+
+#chart div {
+  color: #f00;
+}
