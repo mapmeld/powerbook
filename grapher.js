@@ -20,7 +20,12 @@ $.get("power-logs/pwr-CSN74901610-140820_141723.csv", function(data) {
     },
     axis: {
       x: {
-        type: 'timeseries'
+        type: 'timeseries',
+        tick: {
+          format: function(x) {
+            return x.toString()
+          }
+        }
       }
     }
   });
