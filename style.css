@@ -24,3 +24,7 @@ a:hover {
 #chart div {
   color: #f00;
 }
+
+.c3-shapes {
+  fill: #eef;
+}
